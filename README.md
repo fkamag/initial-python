@@ -6,7 +6,8 @@
 ## Como começar?
 <details>
 <summary> Passo a Passo </summary>
-1. Tenha o Python instalado em sua máquina, caso tenha dúvidas sobre esse ponto, poste no canal da turma e o time responsável irá te ajudar aqui. 
+
+1. Tenha o Python instalado em sua máquina ([guia aqui](https://app.betrybe.com/learn/course/5e938f69-6e32-43b3-9685-c936530fd326/module/f04cdb21-382e-4588-8950-3b1a29afd2dd/section/aa76abc8-b842-40d9-b5cc-baa960952129/lesson/3f79a20e-f527-4871-b69b-544310cfbda0 "Guia de configuração de ambiente Python")), caso tenha dúvidas sobre esse ponto, poste no canal da turma e o time responsável irá te ajudar aqui. 
 
 2. Crie o ambiente virtual que será utilizado para instalar as dependências
 
@@ -23,7 +24,7 @@ source .venv/bin/activate
 4. Instale os requerimentos deste repositório 
 
 ```bash
-pip install -r requirements.txt
+python3 -m pip install -r requirements.txt
 ```
 
 5. Execute todos os testes do repositório (note que, enquanto não houver implementação nas funções, os testes falharão!)
