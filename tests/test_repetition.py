@@ -6,7 +6,7 @@ from exercises.repetition import (
 )
 
 
-def test_append_each_letter_of_the_word_in_a_list(word):
+def test_append_each_letter_of_the_word_in_a_list():
     assert append_each_letter_of_the_word_in_a_list("trybe") == [
         "t",
         "r",
@@ -35,7 +35,7 @@ def test_return_element_from_list_that_is_string():
     assert return_element_from_list_that_is_string([[1, 2], "2", 4.5]) == "2"
 
 
-def test_return_index_of_the_uppercase_letter(word):
+def test_return_index_of_the_uppercase_letter():
     assert return_index_of_the_uppercase_letter("Trybe") == 0
     assert return_index_of_the_uppercase_letter("felPs") == 3
     assert return_index_of_the_uppercase_letter("pythoN") == 5

@@ -29,7 +29,7 @@ def test_basic_product():
     assert basic_product(2, 2) == 4
     assert basic_product(-5, 5) == -25
     assert basic_product(-15, -15) == 225
-    assert basic_product(-1, 158) == 158
+    assert basic_product(-1, 158) == -158
 
 
 def test_basic_division():
@@ -44,7 +44,7 @@ def test_basic_division():
 def test_basic_integer_division():
     assert basic_integer_division(4, 5) == 0
     assert basic_integer_division(5, 4) == 1
-    assert basic_integer_division(-7, 5) == -1
+    assert basic_integer_division(7, 5) == 1
     assert basic_integer_division(-47, -15) == 3
     assert basic_integer_division(249, 15) == 16
 

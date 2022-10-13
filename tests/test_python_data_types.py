@@ -54,7 +54,7 @@ def test_is_list():
 
 
 def test_is_tuple():
-    assert is_tuple("elem1", "elem2") is True
+    assert is_tuple(("elem1", "elem2")) is True
     assert is_tuple((1, 2, 3)) is True
     assert is_tuple({"False"}) is False
     assert is_tuple({"True": "False"}) is False
@@ -62,7 +62,7 @@ def test_is_tuple():
 
 def test_is_set():
     assert is_set({"False"}) is True
-    assert is_set(set(1, 2, 3, 4)) is True
+    assert is_set(set([1, 2, 3, 4])) is True
     assert is_set(["False1"]) is False
     assert is_set({"True": "False"}) is False
 
@@ -89,7 +89,7 @@ def test_append_element_in_list():
 
 
 def test_remove_element_from_list():
-    assert remove_element_from_list(5, [1, 2, 5, 4, 3]) == [1, 2, 3, 4]
+    assert remove_element_from_list(5, [1, 2, 5, 4, 3]) == [1, 2, 4, 3]
     assert remove_element_from_list("P", ["T", "P", "R", "Y", "B", "E"]) == [
         "T",
         "R",
@@ -125,27 +125,27 @@ def test_delete_key_from_dict():
 
 
 def test_add_element_to_set():
-    assert append_element_in_list(5, {1, 2, 3, 4}) == {1, 2, 3, 4, 5}
-    assert append_element_in_list("TRYBE", set()) == {"TRYBE"}
-    assert append_element_in_list(
+    assert add_element_to_set(5, {1, 2, 3, 4}) == {1, 2, 3, 4, 5}
+    assert add_element_to_set("TRYBE", set()) == {"TRYBE"}
+    assert add_element_to_set(
         "felps", {"isaac", "eli", "rodrigo", "roni", "marco", "felps"}
     ) == {"isaac", "eli", "rodrigo", "roni", "marco", "felps"}
 
 
 def test_remove_element_from_set():
-    assert append_element_in_list(5, {1, 2, 3, 4, 5}) == {
+    assert remove_element_from_set(5, {1, 2, 3, 4, 5}) == {
         1,
         2,
         3,
         4,
     }
-    assert append_element_in_list("P", {"T", "P", "R", "Y", "B", "E"}) == [
+    assert remove_element_from_set("P", {"T", "P", "R", "Y", "B", "E"}) == {
         "T",
         "R",
         "Y",
         "B",
         "E",
-    ]
-    assert append_element_in_list(
+    }
+    assert remove_element_from_set(
         "felps", {"isaac", "eli", "rodrigo", "roni", "marco", "felps"}
     ) == {"isaac", "eli", "rodrigo", "roni", "marco"}
