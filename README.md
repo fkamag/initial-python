@@ -318,4 +318,4 @@ def return_element_from_list_that_is_string(input_list):
 
 ---
 
-## Qaulquer dúvida ou problema, basta postar no slack da turma ou procurar o time de instrução responsável 😊
+## Qualquer dúvida ou problema, basta postar no canal do slack da turma ou procurar o time de instrução responsável 😊, bons estudos!
