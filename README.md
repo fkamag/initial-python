@@ -315,3 +315,7 @@ def return_element_from_list_that_is_string(input_list):
 ```
 
 </details>
+
+---
+
+## Qaulquer dúvida ou problema, basta postar no slack da turma ou procurar o time de instrução responsável 😊
