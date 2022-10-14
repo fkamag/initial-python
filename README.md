@@ -24,7 +24,7 @@ source .venv/bin/activate
 4. Instale os requerimentos deste repositório 
 
 ```bash
-python3 -m pip install -r requirements.txt
+python3 -m pip install -r dev-requirements.txt
 ```
 
 5. Execute todos os testes do repositório (note que, enquanto não houver implementação nas funções, os testes falharão!)
