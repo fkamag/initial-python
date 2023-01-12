@@ -1,9 +1,10 @@
-# Boas Vindas ao repositório de introdução à Python
+# Boas Vindas ao repositório de Introdução à Python
 
-## Aqui você vai encontrar exercícios para treinar conceitos introdutórios à linguagem Python. Você encontra esse conteúdo [aqui](https://app.betrybe.com/learn/course/5e938f69-6e32-43b3-9685-c936530fd326/module/290e715d-73e3-4b2d-a3c7-4fe113474070/section/b436f9e0-dfde-4a16-9bad-82f0c559dd45/day/bee44ac6-0782-48cd-9ce8-1811980e558e/lesson/71641e4a-4804-43d0-b91c-b6c0c8724013) dentro da plataforma de aprendizagem.
----
+## Neste repositório você vai encontrar exercícios para treinar conceitos iniciais à linguagem Python.
 
-## Como começar?
+<br>
+
+## Como posso começar?
 <details>
 <summary> Passo a Passo </summary>
 
@@ -49,16 +50,19 @@ python3 -m pytest tests/<caminho/para/o/arquivo/de/teste>::<nome_da_função_do_
 
 ---
 
+<br>
 
-## Detalhamento sobre os exercícios
+
+# Detalhamento sobre os exercícios
 
 <details>
 
 <summary> Operações Básicas </summary>
 <br>
 
+## Se quiser ler sobre esse tópico você pode acessar [esta página aqui](https://app.betrybe.com/learn/course/5e938f69-6e32-43b3-9685-c936530fd326/module/290e715d-73e3-4b2d-a3c7-4fe113474070/section/b436f9e0-dfde-4a16-9bad-82f0c559dd45/day/bee44ac6-0782-48cd-9ce8-1811980e558e/lesson/71641e4a-4804-43d0-b91c-b6c0c8724013)
 
-### Os exercícios relacionados às operações básicas na linguagem `Python` podem ser encontrados no arquivo `exercises/basic_operations.py`, o que se espera de cada um destes exercícios será detalhado abaixo:
+### Os exercícios relacionados às operações básicas na linguagem `Python` estão localizados no arquivo `exercises/basic_operations.py` e o que se espera de cada um destes exercícios está detalhado abaixo:
 
 
 <br>
@@ -123,7 +127,9 @@ def basic_potentiation(first_number, second_number):
 <br>
 
 
-### Os exercícios relacionados aos tipos de dados na linguagem `Python` podem ser encontrados no arquivo: `exercises/python_data_types.py`, o que se espera de cada um destes exercícios será detalhado abaixo:
+## Se quiser ler sobre esse tópico você pode acessar [esta página aqui](https://app.betrybe.com/learn/course/5e938f69-6e32-43b3-9685-c936530fd326/module/290e715d-73e3-4b2d-a3c7-4fe113474070/section/b436f9e0-dfde-4a16-9bad-82f0c559dd45/day/bee44ac6-0782-48cd-9ce8-1811980e558e/lesson/358c149a-b1cb-4c04-bb05-508f17e20b50)
+
+### Os exercícios relacionados aos tipos de dados no `Python` estão localizados no arquivo `exercises/python_data_types.py` e o que se espera de cada um destes exercícios está detalhado abaixo:
 
 
 <br>
@@ -245,7 +251,9 @@ def remove_element_from_set(element, input_set):
 <br>
 
 
-### Os exercícios relacionados às estruturas condicionais na linguagem `Python` podem ser encontrados no arquivo: `exercises/conditionals.py`. Pode ser que você encontre uma resolução para estes exercícios que não necessite de uma estrutura condicional (ifs), contudo, para fins didáticos, recomenda-se sua utilização. O que se espera de cada um destes exercícios será detalhado abaixo:
+## Se quiser ler sobre esse tópico você pode acessar [esta página aqui](https://app.betrybe.com/learn/course/5e938f69-6e32-43b3-9685-c936530fd326/module/290e715d-73e3-4b2d-a3c7-4fe113474070/section/b436f9e0-dfde-4a16-9bad-82f0c559dd45/day/bee44ac6-0782-48cd-9ce8-1811980e558e/lesson/e26f6616-26e5-442c-b6f2-8cd7868035f1)
+
+### Os exercícios relacionados às estruturas condicionais no `Python` estão localizados no arquivo `exercises/conditionals.py`. Pode ser que você encontre uma resolução para estes exercícios que não necessite de uma estrutura condicional `(ifs)`, contudo, para fins didáticos, recomenda-se sua utilização. O que se espera de cada um destes exercícios está detalhado abaixo:
 
 
 <br> 
@@ -289,7 +297,9 @@ def check_if_element_exists_in_list(element, input_list):
 <br>
 
 
-### Os exercícios relacionados às estruturas de repetição na linguagem `Python` podem ser encontrados no arquivo: `exercises/repetition.py`. Pode ser que você encontre uma resolução para estes exercícios que não necessite de uma estrutura de repetição (for, while), contudo, para fins didáticos, recomenda-se sua utilização. O que se espera de cada um destes exercícios será detalhado abaixo:
+## Se quiser ler sobre esse tópico você pode acessar [esta página aqui](https://app.betrybe.com/learn/course/5e938f69-6e32-43b3-9685-c936530fd326/module/290e715d-73e3-4b2d-a3c7-4fe113474070/section/b436f9e0-dfde-4a16-9bad-82f0c559dd45/day/bee44ac6-0782-48cd-9ce8-1811980e558e/lesson/f9dfc461-b7f6-40cb-881d-b18abe2880d3)
+
+### Os exercícios relacionados às estruturas de repetição na linguagem `Python` estão localizados no arquivo `exercises/repetition.py`. Pode ser que você encontre uma resolução para estes exercícios que não necessite de uma estrutura de repetição `(for, while)`, contudo, para fins didáticos, recomenda-se sua utilização. O que se espera de cada um destes exercícios está detalhado abaixo:
 
 <br>
 
