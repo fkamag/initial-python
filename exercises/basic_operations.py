@@ -4,7 +4,7 @@
 # Obs: 'def' é a palavra usada para definir uma nova função
 #
 # def nome_da_funcao(primeiro_parametro, segundo_parametro):
-#     variavel = "aqui é o corpo da função"
+#     variavel = primeiro_parametro + segundo_parametro
 #     return "esse será o retorno da função"
 
 def basic_sum(first_number, second_number):
