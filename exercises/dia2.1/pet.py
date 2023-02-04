@@ -12,7 +12,3 @@ class Pet():
     - age: {self.age}
     - human: {self.human}
     """
-
-billy = Pet('Billy', 'Dog', 9, 'Fabio')
-
-print(billy)
