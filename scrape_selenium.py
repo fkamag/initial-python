@@ -60,11 +60,14 @@ while next_page_link:
     # Usa o método extend para colocar todos os elementos de uma lista dentro
     # de outra
     all_books.extend(scrape(url2request))
-    url2request = (
-        firefox.find_element(By.CLASS_NAME, "next")
-        .find_element(By.TAG_NAME, "a")
-        .get_attribute("href")
-    )
+    try:
+        url2request = (
+            firefox.find_element(By.CLASS_NAME, 'next')
+            .find_element(By.TAG_NAME, 'a').get_attribute('href')
+        )
+    except Exception:
+        print("exception handled")
+        break
 
 
 print(all_books)
