@@ -13,6 +13,6 @@ def multiply_arrays(array1, array2):
     return result
 
 
-meu_array = [1, 2, 3, 4, 5]
+meu_array = [1, 2, 3, 4, 5, 6, 7]
 
 multiply_arrays(meu_array, meu_array)
