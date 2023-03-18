@@ -1,19 +1,22 @@
-def higher_number(x,y):
+def higher_number(x, y):
     if x > y:
         return x
     else:
         return y
-    
+
+
 def average(list):
     count = 0
     for i in list:
         count += i
     return count / len(list)
 
+
 def asterisk(n):
     for i in range(n):
         print(n*'*')
     return
+
 
 def bigger(words):
     word_big = 0
@@ -25,6 +28,7 @@ def bigger(words):
             word_big = len(word)
             word_index = index
     return words[word_index]
+
 
 def paint_wall(n):
     if n % 54 == 0:
